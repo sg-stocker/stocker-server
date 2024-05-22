@@ -5,6 +5,7 @@ import capstone1.stocker.dto.CompanyResponse;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import java.util.HashMap;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -21,7 +22,7 @@ public class CompanyController {
     @GetMapping
     @Operation(summary = "전체 회사를 전부 조회", description = "사용 가능한 회사들을 전부 조회한다")
     @ApiResponse(responseCode = "200" , description = "전체 조회 성공")
-    public ResponseEntity<CompanyResponse> companyList(){
+    public ResponseEntity<HashMap> companyList(){
         return ResponseEntity.ok(companyService.getAllCompanies());
     }
 }

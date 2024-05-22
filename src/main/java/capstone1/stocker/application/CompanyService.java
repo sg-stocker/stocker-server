@@ -17,15 +17,15 @@ import org.springframework.transaction.annotation.Transactional;
 public class CompanyService {
     private final CompanyRepository companyRepository;
 
-    public CompanyResponse getAllCompanies(){
-        HashMap resultMap = companyRepository.findAll().stream()
+    public HashMap getAllCompanies(){
+        HashMap tickers = companyRepository.findAll().stream()
                 .collect(Collectors.toMap(
                         Company::getName,
                         Company::getTicker,
                         (oldValue, newValue) -> oldValue,
                         HashMap::new
                 ));
-        return CompanyResponse.from(resultMap);
+        return tickers;
 
     }
 }
