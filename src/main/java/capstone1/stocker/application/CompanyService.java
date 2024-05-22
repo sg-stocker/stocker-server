@@ -20,6 +20,8 @@ public class CompanyService {
     private final CompanyRepository companyRepository;
 
     public HashMap getAllCompanies(){
+        List<Company> all = companyRepository.findAll();
+        log.info(String.valueOf(all));
         HashMap tickers = companyRepository.findAll().stream()
                 .collect(Collectors.toMap(
                         Company::getName,
