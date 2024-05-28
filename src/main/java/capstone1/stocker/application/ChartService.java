@@ -2,7 +2,6 @@ package capstone1.stocker.application;
 
 import capstone1.stocker.dto.ChartResponseDto;
 import capstone1.stocker.repository.CompanyRepository;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
@@ -36,10 +35,9 @@ public class ChartService {
     @Value("${APP_SECRET}")
     private String appSecret;
 
-    public ChartResponseDto getChart(String tickerId) throws Exception {
+    public ChartResponseDto getChart(String ticker) throws Exception {
 
-        if(!companyRepository.existsByTicker(tickerId))
-        {
+        if (!companyRepository.existsByTicker(ticker)) {
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "NO TICKERS");
         }
 
@@ -59,7 +57,7 @@ public class ChartService {
         // Query Parameter
         Map<String, String> queryParams = new HashMap<>();
         queryParams.put("FID_COND_MRKT_DIV_CODE", "J");
-        queryParams.put("FID_INPUT_ISCD", tickerId);
+        queryParams.put("FID_INPUT_ISCD", ticker);
 
 
         // 날짜 계산
