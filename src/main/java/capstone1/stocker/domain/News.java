@@ -1,5 +1,6 @@
 package capstone1.stocker.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -28,9 +29,11 @@ public class News {
     private String summary;
     private String url;
     private Date date;
+    private String imageUrl;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "keyword_id")
+    @JsonIgnore
     private Keyword keyword;
 
 }
