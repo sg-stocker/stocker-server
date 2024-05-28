@@ -21,12 +21,6 @@ public class NewsService {
     private final CompanyRepository companyRepository;
     private final KeywordRepository keywordRepository;
 
-    @Value("${CLIENT_ID}")
-    private String clientId;
-
-    @Value("${CLIENT_SECRET}")
-    private String clientSecret;
-
     public NewsDto getNews(Long keywordId) throws Exception {
         List<News> newsList = newsRepository.findNewsByKeywordId(keywordId);
 
