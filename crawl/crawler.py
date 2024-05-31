@@ -1,14 +1,13 @@
 import time
 import json
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
+from datetime import datetime, timedelta
 
 
-# 클러스터링된 뉴스의 url
+# 클러스터링된 주별 대표 뉴스들의 url
 URL_0304_0310 = "https://search.naver.com/search.naver?where=news&sm=tab_tnw&query=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90&sort=0&photo=0&field=0&pd=3&ds=2024.03.04&de=2024.03.10&mynews=0&office_type=0&office_section_code=0&news_office_checked=&related=1&docid=0010014553331&nso=so:r,p:from20240304to20240310,a:all"
 URL_0311_0317 = "https://search.naver.com/search.naver?where=news&sm=tab_tnw&query=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90&sort=0&photo=0&field=0&pd=3&ds=2024.03.11&de=2024.03.17&mynews=0&office_type=0&office_section_code=0&news_office_checked=&related=1&docid=0090005273401&nso=so:r,p:from20240311to20240317,a:all"
 URL_0318_0324 = "https://search.naver.com/search.naver?where=news&sm=tab_tnw&query=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90&sort=0&photo=0&field=0&pd=3&ds=2024.03.18&de=2024.03.24&mynews=0&office_type=0&office_section_code=0&news_office_checked=&related=1&docid=0150004963698&nso=so:r,p:from20240318to20240324,a:all"
@@ -62,14 +61,33 @@ for url in urls:
         title = title_element.get_text() if title_element else None
         description = description_element.get_text() if description_element else None
         url = url_element['href'] if url_element else None
-        thumbnail = thumbnail_elements[1]['src'] if len(thumbnail_elements)>1 else None
+
+        if len(thumbnail_elements) <= 1:  # 뉴스회사 로고가 항상 1개 존재
+            thumbnail = None
+        else:
+            element = thumbnail_elements[1]
+            if 'data-lazysrc' in element.attrs:
+                thumbnail = element['data-lazysrc']
+            elif 'src' in element.attrs:
+                thumbnail = element['src']
+            else:
+                thumbnail = None
 
         if len(date_elements) == 1:
             date = date_elements[0].get_text()
-        elif len(date_elements) == 2:   # 3면 1단, 2면 TOP 와 같은게 함께 있을 때
-            date_elements[1].get_text()
+        elif len(date_elements) == 2:   # "3면 1단", "2면 TOP" 와 같은게 함께 있을 때 처리
+            date = date_elements[1].get_text()
         else:
             date = None
+
+        # 최근기사들은 날짜가 아닌 x일전으로 되어 있어서 처리 필요 ex.7일전
+        if date and date[-1] == "전":
+            if "일" in date:
+                num = int(date[:date.find('일')])
+                d = datetime.today() - timedelta(days=num)
+                date = d.strftime('%Y.%m.%d.')
+            elif "주" in date: # 그냥 end_date로 하는 수 밖에 없다
+                date = end_date[:4]+ "." + end_date[5:7]+"."+end_date[8:]+"."
 
         if title and description and url and date:  # thumnail은 없을 수 있다!
             # DB column명에 대응되도록 저장
