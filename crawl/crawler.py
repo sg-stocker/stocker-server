@@ -18,13 +18,13 @@ for item in soup.select('li.bx'):
     title_element = item.select_one('a.news_tit')
     description_element = item.select_one('div.news_dsc')
     url_element = item.select_one('a.news_tit')
-    thumbnail_element = item.select_one('img')
+    thumbnail_elements = item.select('img')
     date_element = item.select_one('span.info')
 
     title = title_element.get_text() if title_element else None
     description = description_element.get_text() if description_element else None
     url = url_element['href'] if url_element else None
-    thumbnail = thumbnail_element['src'] if thumbnail_element else None
+    thumbnail = thumbnail_elements[1]['data-lazysrc'] if thumbnail_elements else None
     date = date_element.get_text() if date_element else None
 
     if title and description and url and thumbnail and date:
