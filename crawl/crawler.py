@@ -2,8 +2,15 @@ import requests
 import json
 from bs4 import BeautifulSoup
 
+# 클러스터링된 뉴스의 url
+URL_0304_0310 = "https://search.naver.com/search.naver?where=news&sm=tab_tnw&query=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90&sort=0&photo=0&field=0&pd=3&ds=2024.03.04&de=2024.03.10&mynews=0&office_type=0&office_section_code=0&news_office_checked=&related=1&docid=0010014553331&nso=so:r,p:from20240304to20240310,a:all"
+
+
 # Define the URL
-url = "https://search.naver.com/search.naver?where=news&sm=tab_tnw&query=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90&sort=0&photo=0&field=0&pd=3&ds=2024.03.04&de=2024.03.10&mynews=0&office_type=0&office_section_code=0&news_office_checked=&related=1&docid=0010014553331&nso=so:r,p:from20240304to20240310,a:all"
+url = URL_0304_0310
+# url에서 검색구간 날짜 추출
+start_date = url[url.find('ds')+3:url.find('ds')+13]
+end_date = url[url.find('de')+3:url.find('de')+13]
 
 # Send a request to the URL
 response = requests.get(url)
@@ -36,4 +43,5 @@ for item in soup.select('li.bx'):
             'date': date
         })
 
-print(json.dumps(news_items, indent=4, ensure_ascii=False))
+with open(f'./data/{start_date}_{end_date}', 'w', encoding='utf-8') as f:
+    json.dump(news_items, f, ensure_ascii=False, indent=4)
