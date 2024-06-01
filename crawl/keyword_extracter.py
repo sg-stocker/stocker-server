@@ -13,7 +13,8 @@ db_config = {
     'host': os.getenv('DB_HOST'),
     'database': os.getenv('DB_DATABASE')
 }
-GET_COMPANY_ID_QUERY = os.getenv('GET_COMPANY_ID_QUERY')ㅎ
+GET_COMPANY_ID_QUERY = os.getenv('GET_COMPANY_ID_QUERY')
+ADD_KEYWORD_QUERY = os.getenv('ADD_KEYWORD_QUERY')
 
 
 def get_company_id(cursor, ticker):
@@ -46,7 +47,8 @@ def extract_keyword(articles):
     return keyword_name, keyword_date
 
 def create_keyword_entity(cursor, keyword_name, keyword_date, company_id):
-    pass
+    cursor.execute(ADD_KEYWORD_QUERY, (keyword_name, keyword_date, company_id))
+
 
 
 def create_news_entity(cursor, article, keyword_id):
