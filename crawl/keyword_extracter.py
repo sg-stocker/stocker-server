@@ -17,6 +17,10 @@ GET_COMPANY_ID_QUERY = os.getenv('GET_COMPANY_ID_QUERY')
 ADD_KEYWORD_QUERY = os.getenv('ADD_KEYWORD_QUERY')
 ADD_NEWS_QUERY = os.getenv('ADD_NEWS_QUERY')
 
+script_dir = os.path.dirname(os.path.abspath(__file__))
+data_folder = os.path.join(script_dir, 'data')
+
+
 def get_company_id(cursor, ticker):
     cursor.execute(GET_COMPANY_ID_QUERY, (ticker,))
     result = cursor.fetchone()
