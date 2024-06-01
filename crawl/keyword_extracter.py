@@ -10,11 +10,16 @@ db_config = {
     'host': os.getenv('DB_HOST'),
     'database': os.getenv('DB_DATABASE')
 }
-
+GET_COMPANY_ID_QUERY = os.getenv('GET_COMPANY_ID_QUERY')ㅎ
 
 
 def get_company_id(cursor, ticker):
-    pass
+    cursor.execute(GET_COMPANY_ID_QUERY, (ticker,))
+    result = cursor.fetchone()
+    if result is not None:
+        return result[0]
+    else:
+        raise ValueError(f"Company with ticker {ticker} not found")
 
 
 def create_keyword_entity(cursor, keyword_name, keyword_date, company_id):
