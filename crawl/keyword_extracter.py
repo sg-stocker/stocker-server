@@ -4,6 +4,14 @@ from openai import OpenAI
 import mysql.connector
 from collections import defaultdict
 
+db_config = {
+    'user': os.getenv('DB_USERNAME'),
+    'password': os.getenv('DB_PASSWORD'),
+    'host': os.getenv('DB_HOST'),
+    'database': os.getenv('DB_DATABASE')
+}
+
+
 
 def get_company_id(cursor, ticker):
     pass
