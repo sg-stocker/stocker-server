@@ -5,8 +5,25 @@ import mysql.connector
 from collections import defaultdict
 
 
-def process_weekly_data(cursor, ticker, articles):
+def get_company_id(cursor, ticker):
     pass
+
+
+def create_keyword_entity(cursor, keyword_name, keyword_date, company_id):
+    pass
+
+
+def create_news_entity(cursor, article, keyword_id):
+    pass
+
+
+def process_weekly_data(cursor, ticker, articles):
+    company_id = get_company_id(cursor, ticker)
+    keyword_name, keyword_date = extract_keyword(articles)
+    create_keyword_entity(cursor, keyword_name, keyword_date, company_id)
+    keyword_id = cursor.lastrowid
+    for article in articles:
+        create_news_entity(cursor, article, keyword_id)
 
 
 cnx = mysql.connector.connect(**db_config)
