@@ -4,6 +4,9 @@ from openai import OpenAI
 import mysql.connector
 from collections import defaultdict
 
+OPEN_AI_INSTRUCTION = os.getenv('OPEN_AI_INSTRUCTION')
+client = OpenAI(api_key=os.getenv('OPEN_AI_API_KEY'))
+
 db_config = {
     'user': os.getenv('DB_USERNAME'),
     'password': os.getenv('DB_PASSWORD'),
@@ -21,6 +24,26 @@ def get_company_id(cursor, ticker):
     else:
         raise ValueError(f"Company with ticker {ticker} not found")
 
+
+def extract_keyword(articles):
+    headlines = ""
+    date_frequency = defaultdict(int)
+    for n, article in enumerate(articles):
+        headlines += f"{n}. {article['title']}\n"
+        date_frequency[article['date']] += 1
+
+
+    ai_response = client.chat.completions.create(
+        model="gpt-4-turbo",
+        messages=[
+            {"role": "system", "content": OPEN_AI_INSTRUCTION},
+            {"role": "user", "content": headlines}
+        ]
+    )
+    keyword_name = ai_response.choices[0].message.content
+    keyword_date = max(date_frequency, key=lambda x: date_frequency[x])
+
+    return keyword_name, keyword_date
 
 def create_keyword_entity(cursor, keyword_name, keyword_date, company_id):
     pass
