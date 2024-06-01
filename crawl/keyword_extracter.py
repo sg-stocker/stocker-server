@@ -15,7 +15,7 @@ db_config = {
 }
 GET_COMPANY_ID_QUERY = os.getenv('GET_COMPANY_ID_QUERY')
 ADD_KEYWORD_QUERY = os.getenv('ADD_KEYWORD_QUERY')
-
+ADD_NEWS_QUERY = os.getenv('ADD_NEWS_QUERY')
 
 def get_company_id(cursor, ticker):
     cursor.execute(GET_COMPANY_ID_QUERY, (ticker,))
@@ -50,9 +50,10 @@ def create_keyword_entity(cursor, keyword_name, keyword_date, company_id):
     cursor.execute(ADD_KEYWORD_QUERY, (keyword_name, keyword_date, company_id))
 
 
-
 def create_news_entity(cursor, article, keyword_id):
-    pass
+    cursor.execute(ADD_NEWS_QUERY, (article['title'], article['summary'],
+                                    article['url'], article['date'],
+                                    article['image_url'], keyword_id))
 
 
 def process_weekly_data(cursor, ticker, articles):
