@@ -1,0 +1,324 @@
+[
+    {
+        "date": "2024.05.12.",
+        "title": "하이닉스, 모바일 낸드 솔루션 개발 ",
+        "summary": "  SK하이닉스가 인공지능(AI) 모바일 낸드 솔루션인 ‘ZUFS(Zoned UFS) 4.0’을 개발했다고 9일 밝혔다. ZUFS는 디지털카메라, 휴대폰 등에 들어가는 플래시 메모리인 UFS의 데이터 관리 효율을 끌어올린 제품이다. ZUFS는 스마트폰 앱에서 생성되는 데이터를 데이터별 특성에 따라 관리해준다. 데이터를 공간...   ",
+        "url": "https://www.hankyung.com/article/2024050988571",
+        "image_url": null
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "“스마트폰 성능 더 좋아지겠네”...SK하이닉스, 온디바이스 AI용 낸드 플래시... ",
+        "summary": "  SK하이닉스가 온디바이스 AI용 모바일 낸드 솔루션 제품인 ‘ZUFS(Zoned UFS) 4.0′을 개발하는 데 성공했다고 9일 밝혔다. ZUFS는 스마트폰 애플리케이션에서 생성되는 데이터를 데이터별 특성에 따라 관리하는 역할을 한다. 데이터를 공간 구분 없이 동시에 저장했던 기존 UFS와 달리 여러 데이터를...   ",
+        "url": "https://www.mk.co.kr/article/11011776",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F009%2F2024%2F05%2F09%2F5301043.jpg&type=f200_200&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, AI용 낸드 솔루션 ‘ZUFS 4.0’ 개발… 3분기 양산 ",
+        "summary": "  SK하이닉스가 온디바이스 AI용 모바일 낸드 솔루션 제품인 ‘ZUFS 4.0′ 개발에 성공했다. 9일 SK하이닉스에 따르면 ZUFS는 스마트폰 앱에서 생성되는 데이터를 데이터별 특성에 따라 관리한다. 데이터를 공간 구분 없이 동시에 저장했던 기존 유니버설 플래시 스토리지(UFS)와 달리 ZUFS는 여러 데이터를...   ",
+        "url": "https://mydaily.co.kr/page/view/2024050915245362199",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F117%2F2024%2F05%2F09%2F3830507.jpg&type=f200_200&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 차세대 모바일 낸드 솔루션 'ZUFS 4.0' 개발 ",
+        "summary": "  이투데이=이수진 기자 | 온디바이스 AI 스마트폰에 탑재될 업계 최고 성능 제품… 3분기부터 양산 기존 UFS 대비 장기 사용 시 성능 저하 대폭 개선, 제품 수명 40% 향상 “HBM D램 이어 낸드 솔루션에서도 AI 메모리 시장 선도” SK하이닉스가 온디바이스(On-Device) AI용 모바일 낸드 솔루션 제품인 ‘ZUFS...   ",
+        "url": "https://www.etoday.co.kr/news/view/2358233",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5003%2F2024%2F05%2F09%2F1950891.jpg&type=f200_200&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 온디바이스 AI용 낸드 플래시 개발…3분기 양산 ",
+        "summary": "  SK하이닉스는 온디바이스(On-Device) AI용 모바일 낸드 솔루션 제품인 'ZUFS*(Zoned UFS) 4.0'을 개발했다고 9일 밝혔다. ZUFS(Zoned Universal Flash Storage)는 디지털 카메라, 휴대전화 등 전자제품에 사용되는 플래시 메모리 제품인 UFS의 데이터 관리 효율을 향상시킨 제품으로, 유사한 특성의 데이터를 동일한...   ",
+        "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202405090064&t=NN",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F215%2F2024%2F05%2F09%2F1161228.jpg&type=f200_200&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 차세대 모바일 낸드 솔루션 ‘ZUFS 4.0’ 개발 ",
+        "summary": "  SK하이닉스는 온디바이스 AI용 모바일 낸드 솔루션 제품인 ZUFS 4.0을 개발하는 데 성공했다고 9일 밝혔다.SK하이닉스는 ZUFS 4.0은 스마트폰 등 모바일 기기에서 온디바이스 AI를 구현하는 데 최적화된 메모리라며 HBM으로 대표되는 초고성능 D램에 이어 낸드에서도 AI 메모리 시장을 이끌어 갈 것이라고...   ",
+        "url": "https://vop.co.kr/A00001653402.html",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5683%2F2024%2F05%2F09%2F176065.jpg&type=ofullfill208_208_empty&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 차세대 모바일 낸드 솔루션 'ZUFS 4.0' 개발 ",
+        "summary": "  SK하이닉스가 온디바이스(On-Device) AI용 모바일 낸드 솔루션 제품인 'ZUFS*(Zoned UFS) 4.0'을 개발하는 데 성공했다고 9일 밝혔다. ZUFS는 디지털 카메라, 휴대전화 등 전자제품에 사용되는 플래시 메모리 제품인 UFS의 데이터 관리 효율을 향상시킨 제품이다. ZUFS는 스마트폰 앱에서 생성되는 데이터를...   ",
+        "url": "https://www.ccdailynews.com/news/articleView.html?idxno=2273179",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5116%2F2024%2F05%2F09%2F924854.jpg&type=ofullfill208_208_empty&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "5년 전 '선견지명' 결실…SK하이닉스, 온디바이스 AI용 차세대 낸드 개발 ",
+        "summary": "  SK하이닉스가 온디바이스(On-Device) AI용 모바일 낸드 설루션 제품인 'ZUFS(Zoned UFS) 4.0'을 개발하는 데 성공했다고 9일 밝혔다. AI 붐이 도래하기 전인 2019년부터 SK하이닉스가 고성능 낸드 설루션에 대한 시장 수요가 발생할 것으로 내다보고 글로벌 플랫폼 기업과 협업해 개발한 것이 ZUFS다....   ",
+        "url": "https://it.chosun.com/news/articleView.html?idxno=2023092115288",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5242%2F2024%2F05%2F09%2F194829.jpg&type=f200_200&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 온디바이스 AI용 낸드 개발 성공…\"3분기 양산\" ",
+        "summary": "  SK하이닉스 ZUFS. / 사진=SK하이닉스SK하이닉스가 온디바이스(On-Device) AI용 모바일 낸드 솔루션 제품인 'ZUFS(Zoned UFS) 4.0'을 개발하는 데 성공했다고 9일 밝혔다.온디바이스 AI는 물리적으로 떨어진 서버의 연산을 거치지 않고 기기 자체에서 스스로 생각하고 연산할 수 있도록 하는 기술이다. 서버를...   ",
+        "url": "https://news.mtn.co.kr/news-detail/2024050909555731828",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5151%2F2024%2F05%2F09%2F549375.jpg&type=f200_200&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 온디바이스 AI용 'ZUFS 4.0' 개발…\"3분기 양산\" ",
+        "summary": "  SK하이닉스는 온디바이스(On-Device) AI용 모바일 낸드 솔루션 제품인 ‘ZUFS(Zoned UFS) 4.0’을 개발했다고 9일 밝혔다. 온디바이스 AI는 물리적으로 떨어진 서버의 연산을 거치지 않고 기기 자체에서 AI 기능을 구현하는 기술을 말한다. 스마트폰기기가 자체적으로 정보를 수집하고 연산하기 때문에 AI...   ",
+        "url": "https://www.dailian.co.kr/news/view/1359321/?sc=Naver",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F119%2F2024%2F05%2F09%2F2828093.jpg&type=f200_200&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "온디바이스 AI 낸드 개발 SK하이닉스\"3분기 양산\" ",
+        "summary": "  5년만에 'ZUFS 4.0' 선보여 제품수명 40% 가까이 늘려 SK하이닉스가 온디바이스 인공지능(AI) 스마트폰에 탑재할 낸드플래시(사진)를 개발했다. 수요가 되살아나는 상황에서 차세대 제품을 선보이며 시장 공략에 나섰다. 9일 SK하이닉스는 모바일 낸드 솔루션 제품 'ZUFS(Zoned UFS) 4.0'을 개발했다고 밝혔다....   ",
+        "url": "https://www.mk.co.kr/article/11011891",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F009%2F2024%2F05%2F09%2F5301129.jpg&type=f200_200&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 온디바이스 AI용 모바일 낸드 'ZUFS 4.0' 개발 ",
+        "summary": "  SK하이닉스가 온디바이스(On-Device) AI용 모바일 낸드 솔루션 제품인 'ZUFS(Zoned UFS) 4.0'을 개발하는 데 성공했다고 9일 밝혔다. 온디바이스(On-Device) AI는 기기 자체에서 AI 기능을 구현하는 기술로 AI 기능의 반응 속도가 빨라지고 사용자 맞춤형 기능이 강화되는 장점이 있다. ▲ SK하이닉스 ZUFS 4.0...   ",
+        "url": "https://www.kpinews.kr/newsView/1065604224136080",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5372%2F2024%2F05%2F09%2F143540.jpg&type=ofullfill208_208_empty&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 차세대 모바일 낸드 솔루션 'ZUFS 4.0' 개발 ",
+        "summary": "  SK하이닉스가 온디바이스(On-Device) AI용 모바일 낸드 솔루션 제품인 ‘ZUFS(Zoned UFS) 4.0’을 개발하는 데 성공했다고 9일 밝혔다. 온디바이스(On-Device) AI는 물리적으로 떨어진 서버의 연산을 거치지 않고 기기 자체에서 AI 기능을 구현하는 기술로, 스마트폰기기가 자체적으로 정보를 수집하고...   ",
+        "url": "https://www.mediapen.com/news/view/918431",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5244%2F2024%2F05%2F09%2F486021.jpg&type=ofullfill208_208_empty&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, AI용 모바일 낸드 개발…“3분기부터 양산” ",
+        "summary": "  5년 만에 ZUFS 4.0 개발 성공 앱 실행 시간 45%, 제품 수명 40% 향상 SK하이닉스가 온디바이스 AI(인공지능) 스마트폰에 탑재할 낸드플래시를 개발했다. 수요가 되살아나는 상황에서 차세대 제품을 선보이며 시장 공략에 나섰다. 9일 SK하이닉스는 모바일 낸드 솔루션 제품 ‘ZUFS(Zoned UFS) 4.0’을 개발했다고...   ",
+        "url": "https://www.mk.co.kr/article/11011611",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F009%2F2024%2F05%2F09%2F5300940.jpg&type=f200_200&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 차세대 모바일 낸드 솔루션 'ZUFS 4.0' 개발 ",
+        "summary": "  온디바이스 AI 스마트폰 탑재 최적화…수명 40% 향상 \"3분기부터 양산, AI 메모리 프로바이더 위상 공고\" ［충북일보］ SK하이닉스가 온디바이스(On-Device) 인공지능(AI)용 모바일 낸드 솔루션 제품인 'ZUFS(Zoned UFS) 4.0(사진)'을 개발하는 데 성공했다. SK하이닉스는 9일 \"ZUFS 4.0은 스마트폰 등 모바일...   ",
+        "url": "https://www.inews365.com/news/article.html?no=813624",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5231%2F2024%2F05%2F09%2F397141.jpg&type=ofullfill208_208_empty&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 차세대 모바일 낸드 솔루션 'ZUFS 4.0' 개발 ",
+        "summary": "  ［중부매일 박상철 기자］ SK하이닉스가 온디바이스(On-Device) AI용 모바일 낸드 솔루션 제품인 'ZUFS(Zoned UFS) 4.0'을 개발하는 데 성공했다. 9일 SK하이닉스는 \"ZUFS 4.0은 스마트폰 등 모바일 기기에서 온디바이스 AI를 구현하는 데 최적화된 메모리로 업계 최고 성능이 구현됐다\"며 \"이 제품을 통해...   ",
+        "url": "http://www.jbnews.com/news/articleView.html?idxno=1435668",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5283%2F2024%2F05%2F09%2F427146.jpg&type=ofullfill208_208_empty&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 모바일 낸드 솔루션 'ZUFS 4.0' 개발 ",
+        "summary": "  SK하이닉스가 온디바이스(On-Device) AI용 모바일 낸드 솔루션 제품인 'ZUFS(Zoned UFS) 4.0'을 개발하는 데 성공했다고 9일 밝혔다. SK하이닉스는 \"ZUFS 4.0은 스마트폰 등 모바일 기기에서 온디바이스 AI를 구현하는 데 최적화된 메모리로, 업계 최고 성능이 구현됐다\"며, \"이 제품을 통해 당사는 HBM으로...   ",
+        "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=216704",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5652%2F2024%2F05%2F09%2F109796.jpg&type=ofullfill208_208_empty&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 차세대 모바일 낸드 솔루션 'ZUFS 4.0' 개발…3분기부터 양산 ",
+        "summary": "  SK하이닉스 ZUFS 4.0 SK하이닉스가 온디바이스(On-Device) AI용 모바일 낸드 솔루션 제품인 'ZUFS(Zoned UFS) 4.0'을 개발하는 데 성공했다고 9일 밝혔다. 온디바이스(On-Device) AI는 물리적으로 떨어진 서버의 연산을 거치지 않고 기기 자체에서 AI 기능을 구현하는 기술이다. 스마트폰기기가 자체적으로 정보를...   ",
+        "url": "http://www.it-b.co.kr/news/articleView.html?idxno=75336",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5579%2F2024%2F05%2F09%2F51448.jpg&type=ofullfill208_208_empty&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "HBM처럼… SK하이닉스, 차세대 AI 낸드 주도권 잡는다 [종합] ",
+        "summary": "  이투데이=이수진 기자 | SK하이닉스, AI 모바일용 ‘ZUFS 4.0’ 개발 “AI 시대에 방향성 제시” SK하이닉스가 온디바이스(On-Device) 인공지능(AI)용 모바일 낸드 솔루션 제품인 ‘ZUFS(Zoned UFS) 4.0’을 개발에 성공했다. 고대역폭 메모리(HBM)로 대표되는 AI용 D램에 이어 고성능 낸드플래시 신제품을 통해 AI...   ",
+        "url": "https://www.etoday.co.kr/news/view/2358461",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5003%2F2024%2F05%2F09%2F1951137.jpg&type=f200_200&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 차세대 모바일 낸드 솔루션 'ZUFS 4.0' 개발 ",
+        "summary": "  SK하이닉스 ZUFS 4.0 컨슈머타임스=김윤호 기자 | SK하이닉스가 온디바이스(On-Device) AI용 모바일 낸드 솔루션 제품인 'ZUFS(Zoned UFS) 4.0'을 개발하는 데 성공했다고 9일 밝혔다. 온디바이스 AI란 물리적으로 떨어진 서버의 연산을 거치지 않고 기기 자체에서 AI 기능을 구현하는 기술이다. 스마트폰 기기가...   ",
+        "url": "https://www.cstimes.com/news/articleView.html?idxno=591522",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5174%2F2024%2F05%2F09%2F406730.jpg&type=ofullfill208_208_empty&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 온디바이스AI 스마트폰용 낸드 ‘ZUF 4.0’ 개발 ",
+        "summary": "  SK하이닉스가 온디바이스(기기 내장형) 인공지능(AI)용 모바일 저장장치인 ‘ZUFS(Zoned UFS) 4.0’을 개발했다고 9일 밝혔다. ZUFS 4.0은 스마트폰 등 모바일 기기에서 온디바이스 AI를 구현하는 데 최적화된 메모리로, 업계 최고 성능이 구현됐다고 SK하이닉스는 설명했다. UFS는 모바일용 낸드플래시...   ",
+        "url": "https://www.khan.co.kr/economy/industry-trade/article/202405091009001",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F032%2F2024%2F05%2F09%2F3295246.jpg&type=f200_200&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 모바일 낸드솔루션 'ZUFS 4.0' 개발 ",
+        "summary": "  SK하이닉스가 차세대 인공지능(AI) 메모리 개발에 성공했다. 온디바이스 AI용 모바일 낸드 솔루션 제품으로 올 3분기부터 양산한다는 계획이다. 온디바이스AI는 서버를 거치지 않고 기기 자체에서 AI 기능을 구현하는 기술이다. 스마트폰 기기가 자체적으로 정보를 수집하고 연산해 AI 속도가 빨라지고...   ",
+        "url": "http://www.dailyimpact.co.kr/news/articleView.html?idxno=116124",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5670%2F2024%2F05%2F09%2F46231.jpg&type=f200_200&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 기기 내장형 AI용 저장장치 ‘ZUFS 4.0’ 개발 ",
+        "summary": "  SK하이닉스가 온디바이스(기기 내장형) 인공지능(AI)용 모바일 저장장치인 ‘ZUFS(Zoned UFS) 4.0’을 개발했다고 9일 밝혔다. ZUFS 4.0은 스마트폰 등 모바일 기기에서 온디바이스 AI를 구현하는 데 최적화된 메모리로, 업계 최고 성능이 구현됐다고 SK하이닉스는 설명했다. UFS는 모바일용 낸드플래시...   ",
+        "url": "https://www.khan.co.kr/economy/industry-trade/article/202405092112045",
+        "image_url": null
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 차세대 모바일 낸드 솔루션 'ZUFS 4.0' 개발 ",
+        "summary": "  SK하이닉스가 온디바이스 AI용 모바일 낸드 설루션 제품 ZUFS 4.0을 개발했다. [SK하이닉스] SK하이닉스가 온디바이스 AI용 모바일 낸드 설루션 제품인 'ZUFS(Zoned UFS) 4.0'을 개발하는 데 성공했다고 9일 밝혔다. 온디바이스 AI는 물리적으로 떨어진 서버의 연산을 거치지 않고 기기 자체에서 AI 기능을...   ",
+        "url": "https://www.ziksir.com/news/articleView.html?idxno=57698",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5489%2F2024%2F05%2F09%2F36246.jpg&type=ofullfill208_208_empty&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, AI용 낸드 'ZUFS 4.0' 개발···제품 수명 40% 향상 ",
+        "summary": "  SK하이닉스는 온디바이스 AI용 모바일 낸드 솔루션 제품인 'ZUFS 4.0'을 개발했다고 9일 밝혔다. ZUFS(Zoned Universal Flash Storage)는 디지털 카메라, 휴대전화 등 전자제품에 사용되는 플래시 메모리 제품인 UFS의 데이터 관리 효율을 향상시킨 제품이다. 유사한 특성의 데이터를 동일한 구역에 저장하고...   ",
+        "url": "http://www.seoulfn.com/news/articleView.html?idxno=519213",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5001%2F2024%2F05%2F09%2F431223.jpg&type=ofullfill208_208_empty&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, AI 스마트폰 탑재-모바일 낸드 솔루션 'ZUFS 4.0' 개발 ",
+        "summary": "  SK하이닉스가 온디바이스(On-Device) AI용 모바일 낸드 솔루션 제품인 'ZUFS(Zoned UFS) 4.0'을 개발하는 데 성공했다고 9일 밝혔다. 온디바이스 AI란 물리적으로 떨어진 서버의 연산을 거치지 않고 기기 자체에서 AI 기능을 구현하는 기술로 스마트폰 기기가 자체적으로 정보를 수집하고 연산하기 때문에...   ",
+        "url": "http://www.techholic.co.kr/news/articleView.html?idxno=212423",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5404%2F2024%2F05%2F09%2F45734.jpg&type=f200_200&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 온디바이스 AI용 모바일 낸드 'ZUFS 4.0' 개발 ",
+        "summary": "  SK하이닉스가 \"온디바이스 AI용 모바일 저장장치인 'ZUFS(Zoned UFS) 4.0'을 개발하는 데 성공했다\"고 9일 밝혔다. SK하이닉스에 따르면 온디바이스 AI는 물리적으로 떨어진 서버의 연산을 거치지 않고 기기 자체에서 AI 기능을 구현하는 기술이다. 스마트폰 기기가 자체적으로 정보를 수집하고...   ",
+        "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=130250",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5256%2F2024%2F05%2F09%2F89515.jpg&type=ofullfill208_208_empty&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스 차세대 모바일 낸드 솔루션 'ZUFS 4.0' 개발 ",
+        "summary": "  SK하이닉스가 온디바이스 AI용 모바일 낸드 솔루션 제품인 `ZUFS*(Zoned UFS) 4.0'을 개발하는데 성공했다고 9일 밝혔다. 온디바이스(On-Device) AI는 물리적으로 떨어진 서버의 연산을 거치지 않고 기기 자체에서 AI 기능을 구현하는 기술이다. ZUFS(Zoned Universal Flash Storage)는 디지털 카메라, 휴대전화...   ",
+        "url": "http://www.cctimes.kr/news/articleView.html?idxno=797235",
+        "image_url": null
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "“스마트폰 성능·수명까지 향상시킨다”… SK하이닉스, 업계 최고 성능 AI용... ",
+        "summary": "  SK하이닉스가 AI 스마트폰에 탑재할 수 있는 업계 최고 성능 반도체를 개발했다. SK하이닉스는 온디바이스(On-Device) 인공지능(AI)용 모바일 낸드 솔루션 제품인 ‘ZUFS(Zoned UFS) 4.0' 개발에 성공했다고 9일 밝혔다. 온디바이스 AI는 물리적으로 떨어진 서버의 연산을 거치지 않고 기기 자체에서 AI 기능을...   ",
+        "url": "https://www.donga.com/news/Economy/article/all/20240509/124865830/1",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F020%2F2024%2F05%2F09%2F3563797.jpg&type=f200_200&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 차세대 모바일 낸드 솔루션 'ZUFS 4.0' 개발 ",
+        "summary": "  SK하이닉스가 온디바이스(On-Device) AI*용 모바일 낸드 솔루션 제품인 'ZUFS*(Zoned UFS) 4.0'을 개발하는 데 성공했다고 9일 밝혔다. 온디바이스(On-Device) AI란 물리적으로 떨어진 서버의 연산을 거치지 않고 기기 자체에서 AI 기능을 구현하는 기술을 말한다. 스마트폰기기가 자체적으로 정보를...   ",
+        "url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=200743",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5679%2F2024%2F05%2F09%2F176958.jpg&type=ofullfill208_208_empty&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 온디바이스 AI용 낸드 솔루션 'ZUFS 4.0' 개발 ",
+        "summary": "  SK하이닉스가 온디바이스 인공지능(AI) 시대를 맞아 늘어나는 낸드플래시 수요 대응을 위해 업계 최고 성능의 'ZUFS(Zoned UFS) 4.0'을 선보였다. 오는 3분기에 신제품을 양산할 계획으로, 이를 통해 D램뿐 아니라 낸드를 포함한 AI 메모리 시장에서 입지를 강화한다는 계획이다. SK하이닉스는 온디바이스...   ",
+        "url": "https://view.asiae.co.kr/article/2024050909332922821",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F277%2F2024%2F05%2F09%2F5415964.jpg&type=f200_200&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 차세대 모바일 드 솔루션 'ZUFS 4.0' 개발…3분기부터 양산 ",
+        "summary": "  SK하이닉스가 온디바이스(On-Device) AI용 모바일 낸드 솔루션 제품인 'ZUFS(Zoned UFS) 4.0'을 개발하는 데 성공했다고 9일 밝혔다. 온디바이스(On-Device) AI란 물리적으로 떨어진 서버의 연산을 거치지 않고 기기 자체에서 AI 기능을 구현하는 기술이다. 스마트폰기기가 자체적으로 정보를 수집하고...   ",
+        "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=204854",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5703%2F2024%2F05%2F09%2F114795.jpg&type=ofullfill208_208_empty&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 온디바이스 AI폰 겨냥한 낸드 솔루션 개발 ",
+        "summary": "  SK하이닉스는 온디바이스 인공지능(AI)용 모바일 낸드플래시 솔루션 'ZUFS(Zoned UFS) 4.0' 개발에 성공했다고 9일 밝혔다. ZUFS는 디지털 카메라, 휴대전화 등 전자제품에 사용되는 플래시 메모리 제품인 유니버셜플래시스토리지(UFS)의 데이터 관리 효율을 높인 제품이다. ZUFS는 스마트폰 앱에서 생성되는...   ",
+        "url": "https://daily.hankooki.com/news/articleView.html?idxno=1082348",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5358%2F2024%2F05%2F09%2F587802.jpg&type=ofullfill208_208_empty&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 온다바이스 AI용 모바일 낸드 'ZUFS 4.0' 개발...\"업계 최고 성능... ",
+        "summary": "  SK하이닉스가 온디바이스 AI용 모바일 낸드 솔루션 제품인 'ZUFS(Zoned UFS) 4.0'을 개발하는 데 성공했다. 9일 SK하이닉스 관계자는 \"ZUFS 4.0은 스마트폰 등 모바일 기기에서 온디바이스 AI를 구현하는 데 최적화된 메모리로, 업계 최고 성능이 구현됐다\"며, \"이 제품을 통해 당사는 HBM으로 대표되는 초고성능...   ",
+        "url": "http://www.consumernews.co.kr/news/articleView.html?idxno=705621",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5275%2F2024%2F05%2F09%2F80948.jpg&type=f200_200&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "하이닉스 \"온디바이스 AI 주도권 선점\" 차세대 모바일 낸드 ‘ZUFS 4.0’ 개발 ",
+        "summary": "  SK하이닉스는 온디바이스 인공지능(AI)용 모바일 낸드 솔루션 제품인 'ZUFS(Zoned UFS) 4.0' 개발에 성공했다고 9일 밝혔다. 온디바이스 AI는 물리적으로 떨어진 서버의 연산을 거치지 않고 기기 자체에서 AI 기능을 구현하는 기술이다. 스마트폰기기가 자체적으로 정보를 수집하고 연산하기 때문에 AI...   ",
+        "url": "http://www.fnnews.com/news/202405091819214697",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F014%2F2024%2F05%2F09%2F5183267.jpg&type=f200_200&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 차세대 모바일 낸드 솔루션 'ZUFS 4.0' 개발 ",
+        "summary": "  SK하이닉스가 온디바이스(On-Device) AI용 모바일 낸드 솔루션 제품인 'ZUFS(Zoned UFS) 4.0'을 개발하는 데 성공했다고 9일 밝혔다. 온디바이스(On-Device) AI란 물리적으로 떨어진 서버의 연산을 거치지 않고 기기 자체에서 AI 기능을 구현하는 기술로 스마트폰 기기가 자체적으로 정보를 수집하고...   ",
+        "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=202519",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5905%2F2024%2F05%2F09%2F7353.jpg&type=f200_200&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 차세대 모바일 낸드 솔루션 'ZUFS 4.0' 개발 ",
+        "summary": "  우먼타임스 = 김태형 기자 SK하이닉스가 온디바이스(On-Device) AI용 모바일 낸드 솔루션 제품인 'ZUFS*(Zoned UFS) 4.0'을 개발하는 데 성공했다고 9일 밝혔다. '온디바이스(On-Device) AI'는 물리적으로 떨어진 서버의 연산을 거치지 않고 기기 자체에서 AI 기능을 구현하는 기술이다. 스마트폰기기가...   ",
+        "url": "http://www.womentimes.co.kr/news/articleView.html?idxno=75231",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5848%2F2024%2F05%2F09%2F18551.jpg&type=f200_200&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "데이터 자동분류, AI스마트폰 속도 높인다…SK하이닉스 ZUFS 4.0 개발 ",
+        "summary": "  SK하이닉스는 온디바이스 AI용 모바일 낸드 설루션 제품인 ‘ZUFS(Zoned UFS) 4.0’을 개발하는 데 성공했다고 9일 밝혔다. 온디바이스 AI란 물리적으로 떨어진 서버의 연산을 거치지 않고 기기 자체에서 AI 기능을 구현하는 기술이다. ZUFS(Zoned Universal Flash Storage)는 디지털카메라, 휴대전화 등 전자제품에...   ",
+        "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20240509.99099002509",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F658%2F2024%2F05%2F09%2F73289.jpg&type=f200_200&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 차세대 모바일 낸드 솔루션 'ZUFS 4.0' 개발 ",
+        "summary": "  SK하이닉스가 온디바이스(On-Device) AI용 모바일 낸드 솔루션 제품인 'ZUFS(Zoned UFS) 4.0'을 개발하는 데 성공했다고 오늘(9일) 밝혔습니다. 온디바이스 AI란, 물리적으로 떨어진 서버의 연산을 거치지 않고 기기 자체에서 AI 기능을 구현하는 기술을 말합니다. 스마트폰기기가 자체적으로 정보를 수집하고...   ",
+        "url": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005226160",
+        "image_url": null
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 차세대 낸드 'ZUFS 4.0' 개발... 향후 AI 폰 탑재 ",
+        "summary": "  기존 UFS 대비 장기 사용시 성능 저하 개선, 수명 40% 향상 “HBM D램 이어 낸드 솔루션에서도 AI 메모리 시장 선도” SK하이닉스가 온디바이스 AI(인공지능)에 최적화된 모바일 낸드 솔루션 제품인 'ZUFS(Zoned UFS) 4.0' 개발에 성공했다고 9일 밝혔다. 해당 제품은 오는 3분기부터 양산에 들어가고, 생산...   ",
+        "url": "https://www.asiatime.co.kr/article/20240509500106",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5492%2F2024%2F05%2F09%2F266558.jpg&type=ofullfill208_208_empty&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 온디바이스 AI용 모바일 낸드 'ZUFS 4.0' 개발 ",
+        "summary": "  SK하이닉스가 온디바이스(On-Device) 인공지능(AI)용 모바일 낸드 솔루션 제품인 'ZUFS(Zoned UFS) 4.0'을 개발하는 데 성공했다고 9일 밝혔다. 온디바이스 AI란 물리적으로 떨어진 서버의 연산을 거치지 않고 기기 자체에서 AI 기능을 구현하는 기술을 말한다. ZUFS(Zoned Universal Flash Storage)는 디지털 카메라...   ",
+        "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=752300",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5525%2F2024%2F05%2F09%2F358916.jpg&type=ofullfill208_208_empty&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스 “초고성능 D램 이어 낸드에서도 AI 메모리 시장 이끌 것” ",
+        "summary": "  SK하이닉스는 온디바이스(On-Device) 인공지능(AI)용 모바일 낸드 솔루션 제품인 ‘ZUFS(Zoned UFS) 4.0’을 개발했다고 9일 밝혔다. 온디바이스 AI는 물리적으로 떨어진 서버의 연산을 거치지 않고 기기 자체에서 AI 기능을 구현하는 기술이다. SK하이닉스는 스마트폰 기기가 자체적으로 정보를 수집, 연산해 AI...   ",
+        "url": "http://www.datanews.co.kr/news/article.html?no=132653",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5024%2F2024%2F05%2F09%2F108960.jpg&type=ofullfill208_208_empty&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 온 디바이스 AI향 모바일 낸드 솔루션 ‘ZUFS 4.0’ 3Q 양산 ",
+        "summary": "  SK하이닉스는 온 디바이스 인공지능(AI)용 모바일 낸드 솔루션 제품인 'ZUFS(Zoned UFS) 4.0'을 개발하는 데 성공했다고 9일 밝혔다. ZUFS는 디지털 카메라나 휴대 전화 등 전자 제품에 사용되는 플래시 메모리 제품인 UFS의 데이터 관리 효율을 향상시킨 제품이다. 이는 유사한 특성의 데이터를 동일한 구역에...   ",
+        "url": "https://www.ekn.kr/web/view.php?key=20240509023013336",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5133%2F2024%2F05%2F09%2F668421.jpg&type=ofullfill208_208_empty&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 차세대 낸드 솔루션 'ZUFS 4.0' 개발...온디바이스 AI용 최고 성... ",
+        "summary": "  SK하이닉스가 온디바이스(On-Device) AI용 모바일 낸드 솔루션 제품인 'ZUFS(Zoned UFS) 4.0'을 개발하는 데 성공했다고 9일 밝혔다. 온디바이스(On-Device) AI는 물리적으로 떨어진 서버의 연산을 거치지 않고 기기 자체에서 AI 기능을 구현하는 기술이다. 스마트폰기기가 자체적으로 정보를 수집하고...   ",
+        "url": "https://www.pointe.co.kr/news/articleView.html?idxno=22753",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5853%2F2024%2F05%2F09%2F6327.jpg&type=ofullfill208_208_empty&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "SK하이닉스, 온디바이스 AI용 낸드 솔루션 ‘ZUFS 4.0’ 개발 ",
+        "summary": "  SK하이닉스가 온디바이스 인공지능(AI)용 모바일 낸드 솔루션 제품인 ‘ZUFS(Zoned UFS) 4.0’을 개발했다고 9일 밝혔다. 온디바이스 AI란 물리적으로 떨어진 서버의 연산을 거치지 않고 기기 자체에서 AI 기능을 구현하는 기술을 뜻한다. 스마트폰기기가 자체적으로 정보를 수집하고 연산하기 때문에 AI...   ",
+        "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202405090929268250933",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F5138%2F2024%2F05%2F09%2F550732.jpg&type=f200_200&expire=2&refresh=true"
+    },
+    {
+        "date": "2024.05.12.",
+        "title": "\"온디바이스 AI 주도권 잡는다\" SK하닉, 차세대 모바일 낸드 3분기 양산 ",
+        "summary": "  SK하이닉스는 온디바이스 인공지능(AI)용 모바일 낸드 솔루션 제품인 ‘ZUFS(Zoned UFS) 4.0’ 개발에 성공했다고 9일 밝혔다. 온디바이스 AI는 물리적으로 떨어진 서버의 연산을 거치지 않고 기기 자체에서 AI 기능을 구현하는 기술이다. 스마트폰기기가 자체적으로 정보를 수집하고 연산하기 때문에 AI...   ",
+        "url": "http://www.fnnews.com/news/202405090905051330",
+        "image_url": "https://search.pstatic.net/common/?src=https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Forigin%2F014%2F2024%2F05%2F09%2F5182735.jpg&type=f200_200&expire=2&refresh=true"
+    }
+]
