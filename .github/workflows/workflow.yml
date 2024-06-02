@@ -1,0 +1,29 @@
+name: CD with Gradle
+
+on:
+  push:
+    branches:
+      - [main]
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    name: deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: excuting remote ssh commands
+        uses: applyboy/ssh-action@0.1.6
+        with:
+          host: ${secrets.REMOTE_IP}
+          username: ubuntu
+          key: ${secrets.KEY}
+          port: ${secrets.SSH_PORT}
+          script: |
+            cd stocker-server
+            git pull origin main
+            ./gradlew build
+            cd build/libs
+            nohup java -jar stocker-0.0.1-SNAPSHOT.jar & 
