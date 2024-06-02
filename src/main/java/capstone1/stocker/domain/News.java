@@ -14,6 +14,7 @@ import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import org.springframework.lang.Nullable;
 
 @Entity
 @Getter
@@ -29,6 +30,7 @@ public class News {
     private String summary;
     private String url;
     private Date date;
+    @Nullable
     private String imageUrl;
 
     @ManyToOne(fetch = FetchType.LAZY)
